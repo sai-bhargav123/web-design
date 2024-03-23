@@ -12,10 +12,11 @@ height: 109vh;
 }
 
 body{
-    background-attachment:moving;
+    background-attachment:fixed;
     background-size:100% 100%;
     background-image:url("pic.jpeg")
-    background-repeat:no repeat;
+    
+    
 }
 
 .navbar{
