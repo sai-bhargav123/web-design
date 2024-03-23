@@ -5,7 +5,7 @@
 
 .main{
 width: 100%;
-background: linear-gradient(to top,rgba(0,0,0,0.5)100%,rgba(0,0,0,0.5)100% ), url(pic.jpeg);
+background: linear-gradient(to top,rgba(0,0,0,0.5)100%,rgba(0,0,0,0.5)100% ),;
 background-position: center;
 background-size: cover;
 height: 109vh;
@@ -14,6 +14,8 @@ height: 109vh;
 body{
     background-attachment:moving;
     background-size:100% 100%;
+    background-image:url("pic.jpeg")
+    background-repeat:no repeat;
 }
 
 .navbar{
